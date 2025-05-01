@@ -1,5 +1,6 @@
 *{
     margin: 0;
+    padding: 0;
     box-sizing: border-box;
     font-family: 'Kaisei Tokumi',serif;
 }
@@ -12,7 +13,6 @@ header{
     justify-content: center;
     align-content: center;
 }
-
 nav{
     width: 100%;
     align-items: center;
@@ -32,40 +32,22 @@ nav li{
 .menu a{
     text-decoration: none;
     color: black;
-    margin: 0;
 }
-                        /*@media{
-                            .menu{display: flex;
-                            flex-direction: column;} 
-                        }*/
-.img-home{
-    background-image: url(../img/img-home.jpg);
+
+main{
     background-color: #B17F7F ;
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
-    width: 100%;
+    width: 100vw;
     height: 100vh;
 }
-h1{
-    font-family: 'Kaisei Tokumin', sans-serif;
-    text-align: center;
-    padding-top: 80px;
-    font-size: 128px;
-    letter-spacing: 15px;
-}
 
-p{
-    font-family: 'Kaisei Tokumin', sans-serif;
-    text-align: center;
-    font-size: 20px;
-    letter-spacing: 5px;
-}
 
 
 footer{
     height: 100px;
-    width: 100%;
+    width: 100vw;
     background-color: #F1F1F1;
     justify-items: center;
     justify-content: center;
